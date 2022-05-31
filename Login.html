@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width-device-width,initial-scale=1.0">
+  <title>Login</title>
+  <script src="https://kit.fontawesome.com/1954f2b50d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style2.css">
+  <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <div class="imb">
+      <img src="images/bookman.jpg">
+    </div>
+    <div class="content">
+      <div class="form">
+        <h2>Login</h2>
+        <form type="text" mathod="post" action="index.html">
+          <div class="input">
+            <span>Username</span>
+            <input type="text" name="username" id="username-field" class="login-form-field">
+          </div>
+          <div class="input">
+            <span>Password</span>
+            <input type="password" name="password">
+          </div>
+            <div class="remember">
+              <label><input type="checkbox" name="" checked>Remember me</label>
+            </div>
+            <div class="input">
+          <input type="submit" value="Sign in" onclick="submitform();"/></div>
+          <div class="input">
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+          </div>
+        </form>
+        <h3>Login with social media</h3>
+        <ul class="soc">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript">
+    function submitform()
+    {
+      var userid=document.getElementById("username-field").value;
+      localStorage.setItem("id",userid);
+      return false;
+    }
+  </script>
+  
+</body>
+</html>
