@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common classes */
+* .text-center{
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+
+* .h5 {
+  color: #3b3663;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+* .h2 {
+  color: #3b3663;
+  font-size: 30px;
+  line-height: 38px;
+}
+.body {
+  width: 100%;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+* a{
+  font-family: 'Rubik';
+  font-weight: 400;
+}
+.active {
+  color: white !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito';
+  font-weight: 800;
+}
+* p {
+  font-family: 'Rubik';
+  font-weight: 400 ;
+}
+/* Header start */
+
+.logo img {
+  width: 210px;
+}
+.top-bar {
+  background-color: #f68e33;
+}
+.cnt-info-col {
+  float: right;
+  width: 25%;
+  text-align: right;
+}
+.nav-col {
+  float: left;
+  width: 75%;
+}
+.logo {
+  float: left;
+  width: 30%;
+}
+.menu {
+  float: right;
+  width: 70%;
+  margin-top: 34px;
+}
+.menu a {
+  text-decoration: none;
+  padding: 16px;
+  display: inline-block;
+  color: #4d4d4d;
+  transition: all 0.5s ease;
+}
+.menu a:hover {
+  color: white;
+}
+.cnt-info-col a {
+  color: #4d4d4d;
+  text-decoration: none;
+  display: inline-block;
+  margin: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.5s ease;
+}
+.cnt-info-col a:hover {
+  color: white;
+}
+section.header-bg-parent {
+  position: relative;
+  top: 20px;
+}
+section.header-bg-parent:after {
+  content: "FIN";
+  position: absolute;
+  color: #e3e3ff;
+  top: -30px;
+  left: 70px;
+  font-size: 140px;
+  font-family: "Rubik";
+  font-weight: 800;
+  letter-spacing: 5px;
+}
+
+h5 {
+  color: #3b3663;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+h2 {
+  color: #3b3663;
+  font-size: 40px;
+  line-height: 44px;
+  margin-left: -4px;
+  margin-top: 10px;
+}
+.header-col1 {
+  float: left;
+  width: 30%;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+.header-col1 p {
+  font-size: 18px;
+  color: #3b3663;
+  line-height: 26px;
+  margin: 20px 0px;
+}
+.header-col2 {
+  float: right;
+  background-image: url("images/office3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70%;
+  margin-right: 15px;
+  height: 80vh;
+  margin-top: -20px;
+}
+button.cmn-bttn {
+  background: linear-gradient(90deg, #8b81ef, #6759e8);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: 'Nunito';
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+button.cmn-bttn:hover {
+  background: linear-gradient(180deg,#6759e8,#8b81ef);
+}
