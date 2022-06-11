@@ -2,7 +2,7 @@
 /* Add a black background color to the top navigation */
 body{
     margin: 0px;
-    background-color: aqua;
+    background-color: #fff;
   }
   .topnav { 
     background-color: rgba(52, 110, 158, 0.904);

@@ -1,0 +1,194 @@
+/* Add a black background color to the top navigation */
+body{
+    margin: 0px;
+  }
+  .topnav { 
+    background-color: rgba(49, 112, 164, 0.904);
+    overflow:visible;
+    height: 180px;
+  }
+  .clear {
+    clear: both;
+  }
+  .f{
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: aliceblue;
+  }
+  
+  .f1{
+    float: right;
+    height: 400px;
+    width: 300px;
+  }
+  
+  /* Drop down list */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+  }
+  .dropdown-content {
+    margin-top: 50px;
+    display: none;
+    position: absolute;
+    background-color:rgba(52, 110, 158, 0.904);
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #fff7f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    transition: all 1s ease;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(37, 120, 189, 0.904);
+    color:rgba(20, 241, 204, 0.796);
+    font-size: 60px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgba(52, 110, 158, 0.904);
+    color:rgba(20, 234, 241, 0.796);
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+  }
+  
+  /* Navigation */
+  
+  
+  
+  /* contact us */
+  #contact {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/library2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  .form {
+    background-image: linear-gradient(225deg,rgb(49, 112, 164),aliceblue);
+    padding: 30px 40px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .form-com {
+    width: 95%;
+    height: 40px;
+    padding: 0px 10px;
+    margin: 10px 0;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    color: white;
+    font-family: Arial;
+  }
+  input.submit-btn {
+    color: white;
+    border: none;
+    background-image: linear-gradient(45deg,rgba(0, 78, 142, 0.904),rgb(0, 58, 97));
+    padding: 10px 25px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  input.submit-btn:hover {
+    background-image: linear-gradient(225deg,rgba(0, 78, 142, 0.904),rgb(0, 58, 97));
+  }
+  
+  /* footer */
+  
+  .footer-col.footer-2-col {
+    position: relative;
+    left: 80px;
+  }
+  .footer-col {
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 3%;
+  }
+  .footer-col h3 {
+    color: #3b3663;
+    font-family: "Nunito";
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .footer-col p {
+    color: #3b3663;
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0px;
+  }
+  .footer-col i {
+    background-color: rgba(49, 112, 164, 0.904);
+    color: #fff;
+    width: 40px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  .social-icons i:hover {
+    transform: translateY(-10px);
+  }
+  .footer-col.footer-2-col ul li {
+    color: #3b3663;
+    font-family: Arial;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .footer-col.footer-2-col ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-col.footer-2-col ul li:hover {
+    padding-left: 5px;
+  }
+  .footer-col a {
+    color: rgba(49, 112, 164, 0.904);
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  .footer-col span {
+    color: rgba(49, 112, 164, 0.904);
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  p.copyright-footer {
+    text-align: center;
+    font-family: Arial;
+    padding: 20px 0px;
+    color: #3b3663;
+  }
+  hr.footer-hr {
+    margin: 60px 0px 20px;
+  }

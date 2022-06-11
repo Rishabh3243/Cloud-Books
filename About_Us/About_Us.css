@@ -1,86 +1,154 @@
 /* Navigation */
 /* Add a black background color to the top navigation */
 body{
-    margin: 0px;
-    background-color: aqua;
-  }
-  .topnav { 
-    background-color: rgba(52, 110, 158, 0.904);
-    overflow:visible;
-    height: 180px;
-  }
-  
-  .f{
-    float: left;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    margin: 15px;
-    background-color: aliceblue;
-  }
+  margin: 0px;
+}
+.topnav { 
+  background-color: rgba(52, 110, 158, 0.904);
+  overflow:visible;
+  height: 180px;
+}
+.h5 {
+  color: #3b3663;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+* .h2 {
+  color: #3b3663;
+  font-size: 30px;
+  line-height: 38px;
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.clear {
+  clear: both;
+}
+.f{
+  float: left;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: aliceblue;
+}
 
-  .f1{
-    float: right;
-    height: 400px;
-    width: 300px;
-  }
+.f1{
+  float: right;
+  height: 400px;
+  width: 300px;
+}
 
-  /* Drop down list */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    align-items: center;
-  }
-  .dropdown-content {
-    margin-top: 50px;
-    display: none;
-    position: absolute;
-    background-color:rgba(52, 110, 158, 0.904);
-    width: 130px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
+/* Drop down list */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+.dropdown-content {
+  margin-top: 50px;
+  display: none;
+  position: absolute;
+  background-color:rgba(52, 110, 158, 0.904);
+  width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff7f7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  transition: all 1s ease;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(52, 110, 158, 0.904);
+  color:rgba(20, 241, 204, 0.796);
+  font-size: 60px;
+  border-bottom-left-radius:50px ;
+  border-bottom-right-radius:50px ;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:rgba(52, 110, 158, 0.904);
+  color:rgba(20, 234, 241, 0.796);
+  border-bottom-left-radius:50px ;
+  border-bottom-right-radius:50px ;
+}
+
+/* Navigation */
+h5.common-h5 {
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 800;
+  color: #3b3663;
+}
+h2.common-h2 {
+font-weight: 800;
+font-family: Arial;
+font-size: 30px;
+color: #3b3663;
+}
+p {
+font-size: 16px;
+font-family: Arial;
+line-height: 20px;
+}
+button.cmn-bttn {
+  background: linear-gradient(225deg,rgba(0, 78, 142, 0.904),rgb(0, 58, 97));
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 15px;
+  font-family: 'Nunito';
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+button.cmn-bttn:hover {
+  background: linear-gradient(45deg,rgba(0, 78, 142, 0.904),rgb(0, 58, 97));}
+
+  .why-chhose-us {
     float: left;
-    color: #fff7f7;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 35px;
-    transition: all 1s ease;
+    width: 50%;
   }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: rgba(52, 110, 158, 0.904);
-    color:rgba(20, 241, 204, 0.796);
-    font-size: 60px;
-    border-bottom-left-radius:50px ;
-    border-bottom-right-radius:50px ;
+  .count-col .stat1 img {
+    height: 250px;
+    width: 250px;
+    margin: 20px 20px;
   }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color:rgba(52, 110, 158, 0.904);
-    color:rgba(20, 234, 241, 0.796);
-    border-bottom-left-radius:50px ;
-    border-bottom-right-radius:50px ;
+  .count-col .stat1 p {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #3b3663;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding-bottom: 0px;
   }
-  
-  @media screen and (max-width:1200px){
-    .f1{
-      display:none;
-    }
-    .topnav a{
-      font-size: 20px;
-    }
-    .topnav a:hover{
-      font-size: 30px;
-    }
-  }
-  /* Navigation */
+  span {
+    color: #3b3663;
+    font-family: Arial;
+    font-size: 14px;
+    margin: 40px;
+}
