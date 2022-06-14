@@ -1,0 +1,201 @@
+/* Navigation */
+/* Add a black background color to the top navigation */
+body{
+    margin: 0px;
+  }
+  .topnav { 
+    background-color: rgba(52, 110, 158, 0.904);
+    overflow:visible;
+    height: 180px;
+  }
+  .h5 {
+    color: #3b3663;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  * .h2 {
+    color: #3b3663;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .clear {
+    clear: both;
+  }
+  .f{
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: aliceblue;
+  }
+  
+  .f1{
+    float: right;
+    height: 400px;
+    width: 300px;
+  }
+  
+  /* Drop down list */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+  }
+  .dropdown-content {
+    margin-top: 50px;
+    display: none;
+    position: absolute;
+    background-color:rgba(52, 110, 158, 0.904);
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #fff7f7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px;
+    transition: all 1s ease;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgba(52, 110, 158, 0.904);
+    color:rgba(20, 241, 204, 0.796);
+    font-size: 60px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:rgba(52, 110, 158, 0.904);
+    color:rgba(20, 234, 241, 0.796);
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius:50px ;
+  }
+  
+  /* Navigation */
+
+/*search...*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create a column layout with Flexbox */
+  .row {
+    display: flex;
+  }
+  
+  /* Left column (menu) */
+  .left {
+    flex: 35%;
+    padding: 15px 0;
+  }
+  
+  .left h2 {
+    padding-left: 8px;
+  }
+  
+  /* Right column (page content) */
+  .right {
+    flex: 65%;
+    padding: 15px;
+  }
+  
+  /* Style the search box */
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #myMenu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #myMenu li a:hover {
+    background-color: #eee;
+  }
+
+
+
+
+
+
+
+/*search...end*/
+
+
+
+
+  .w{
+    border: 3px solid blue;
+    border-radius: 20px;
+    background-color: rgb(0, 242, 255);
+    height: 400px;
+    width: 1070px;
+    margin: 50px;
+    z-index: 0;
+    margin-left: 225px;
+    margin-bottom: 130px;
+  }
+  
+  .w2{
+    margin-left: 100px;
+    border-radius: 10%;
+    height: 490px;
+    width: 400px;
+    vertical-align: center;
+    z-index: 1;
+    margin: -20px;
+    margin-left: 40px;
+  }
+  
+  .w3{
+    margin-left: 550px;
+  }
+  
+  /* footer */
+  p.copyright-footer {
+    text-align: center;
+    font-family: Arial;
+    padding: 20px 0px;
+    color: #3b3663;
+  }
+  hr.footer-hr {
+    margin: 10px 0px 20px;
+  }
