@@ -3,6 +3,12 @@
 body{
   margin: 0px;
 }
+.about {
+  font-size: 18px;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .topnav { 
   background-color: rgba(52, 110, 158, 0.904);
   overflow:visible;
@@ -42,6 +48,7 @@ body{
   margin: 15px;
   background-color: aliceblue;
 }
+
 
 .f1{
   float: right;
