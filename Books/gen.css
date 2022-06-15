@@ -155,7 +155,7 @@ body{
   border-top-left-radius: 10px ;
 }
 
-#myMenu li a:active{
+#myMenu li a.active{
   background-color: white;
   margin-left: 10px;
   border-bottom-left-radius: 10px ;
