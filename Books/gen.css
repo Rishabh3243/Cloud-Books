@@ -143,12 +143,23 @@ body{
 #myMenu li a {
   padding: 12px;
   text-decoration: none;
-  color: black;
-  display: block
+  color:black;
+  display: block;
+  font-size: 25px;
 }
 
 #myMenu li a:hover {
-  background-color: #eee;
+  background-color: white;
+  margin-left: 10px;
+  border-bottom-left-radius: 10px ;
+  border-top-left-radius: 10px ;
+}
+
+#myMenu li a:active{
+  background-color: white;
+  margin-left: 10px;
+  border-bottom-left-radius: 10px ;
+  border-top-left-radius: 10px ;
 }
 
 /*heading*/
