@@ -3,6 +3,27 @@ h1 {
   font-size: 35px;
   font-weight: bold;
 }
+.social-icons i {
+  background-color: rgba(49, 112, 164, 0.904);
+  color: black;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50px;
+  line-height: 25px;
+  text-align: center;
+  transition: all 0.5s ease;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.social-icons span{
+  color: white;
+  font-size: 16px;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
 .w{
     border: 3px solid rgba(52, 110, 158, 0.904);
     border-radius: 20px;
