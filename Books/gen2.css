@@ -1,7 +1,12 @@
+h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
 .w{
-    border: 3px solid blue;
+    border: 3px solid rgba(52, 110, 158, 0.904);
     border-radius: 20px;
-    background-color: rgb(0, 242, 255);
+    background-color: rgba(52, 110, 158, 0.904);
     height: 400px;
     width: 1070px;
     margin: 50px;
@@ -20,7 +25,6 @@
     margin: -20px;
     margin-left: 40px;
   }
-  
 .w3{
     margin-left: 550px;
   }
