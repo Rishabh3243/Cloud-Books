@@ -151,7 +151,7 @@ input.submit-btn:hover {
 }
 .footer-col i {
   background-color: white;
-  color: white;
+  color: rgba(49, 112, 164, 0.904);
   width: 40px;
   border-radius: 50px;
   line-height: 40px;
@@ -181,12 +181,12 @@ input.submit-btn:hover {
   padding-left: 5px;
 }
 .footer-col a {
-  color: rgba(49, 112, 164, 0.904);
+  color: white;
   text-decoration: none;
   padding-left: 10px;
 }
 .footer-col span {
-  color: rgba(49, 112, 164, 0.904);
+  color: white;
   text-decoration: none;
   padding-left: 10px;
 }
