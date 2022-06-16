@@ -2,6 +2,7 @@
 /* Add a black background color to the top navigation */
 body{
     margin: 0px;
+    background-color:rgba(52, 110, 158, 0.904) ;
   }
   .topnav { 
     background-color: rgba(52, 110, 158, 0.904);
@@ -22,6 +23,7 @@ body{
     float: right;
     height: 400px;
     width: 300px;
+    z-index: 2;
   }
 
   /* Drop down list */
@@ -86,8 +88,8 @@ body{
   /* Navigation */
 
   .b{
-    border: 3px solid black;
-    background-color: aqua;
+    border: 5px solid black;
+    background-color: rgba(52, 110, 158, 0.904);
     height: 300px;
     width: 230px;
     border-radius: 30px;
@@ -97,10 +99,11 @@ body{
   }
 
 .j{
-  height: 230px;
+  height: 200px;
   width: 231px;
   border-top-right-radius: 28px;
   border-top-left-radius: 28px;
+  border-bottom: 5px solid black;
 }
 
 .j2{
@@ -108,11 +111,43 @@ body{
   font-size: 30px;
   color: white;
   padding-left: 45px;
-  padding-top: 10px;
 }
 
 .j3{
-  
+  margin-top: -50px;
+  height:60px;
+  width:60px;
+  margin-left: 35%;
+  z-index: 1;
+  border: 5px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.j3:hover{
+  background-color: aqua;
+}
+
+#contact {
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/categback..jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  height: 450px;
+  z-index: 1;
+}
+
+
+/* footer */
+p.copyright-footer {
+  text-align: center;
+  font-family: Arial;
+  padding: 20px 0px;
+  color: #ffffff;
+}
+hr.footer-hr {
+  margin: 10px 0px 20px;
 }
 
 
