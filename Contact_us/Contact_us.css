@@ -135,14 +135,14 @@ input.submit-btn:hover {
   
 }
 .footer-col h3 {
-  color: #3b3663;
+  color: white;
   font-family: "Nunito";
   font-weight: 800;
   margin-bottom: 20px;
   
 }
 .footer-col p {
-  color: #3b3663;
+  color: white;
   font-family: "Arial";
   font-weight: 400;
   font-size: 14px;
@@ -150,8 +150,8 @@ input.submit-btn:hover {
  
 }
 .footer-col i {
-  background-color: rgba(49, 112, 164, 0.904);
-  color: #fff;
+  background-color: white;
+  color: white;
   width: 40px;
   border-radius: 50px;
   line-height: 40px;
@@ -164,7 +164,7 @@ input.submit-btn:hover {
   transform: translateY(-10px);
 }
 .footer-col.footer-2-col ul li {
-  color: #3b3663;
+  color: white;
   font-family: Arial;
   font-size: 16px;
   padding-bottom: 10px;
