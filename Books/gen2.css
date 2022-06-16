@@ -16,6 +16,7 @@ h1 {
   cursor: pointer;
 }
 .social-icons span{
+  font-style: Work sans;
   color: white;
   font-size: 16px;
   margin-right: 15px;
