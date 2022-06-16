@@ -2,7 +2,6 @@
 /* Add a black background color to the top navigation */
 body{
     margin: 0px;
-    background-color: #fff;
   }
   .topnav { 
     background-color: rgba(52, 110, 158, 0.904);
@@ -96,6 +95,27 @@ body{
     margin-left: 50px;
     margin-top: 38px;
   }
+
+.j{
+  height: 230px;
+  width: 231px;
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+}
+
+.j2{
+  place-items: center;
+  font-size: 30px;
+  color: white;
+  padding-left: 45px;
+  padding-top: 10px;
+}
+
+.j3{
+  
+}
+
+
 
 
 
