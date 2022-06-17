@@ -24,12 +24,18 @@ body{
     background-attachment: fixed;
     height: 600px;
   }
-
   #contact2{
     height: 600px;
     background-color: rgb(249, 254, 254);
   }
-
+  #contact3 {
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/library1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      height: 900px;
+    }
+  
 
   .d {
     position: relative;
@@ -138,12 +144,11 @@ p.copyright-footer {
 hr.footer-hr {
   margin: 40px 0px 20px;
 }
-
-#contact2 {
-  height: 800px;
+.w {
+  margin-top: -20px;
 }
-#contact3 {
-  height: 800px;
+.w .p1 {
+  padding-top: 50px;
 }
 .w3 {
   height: 400px;
@@ -180,7 +185,7 @@ hr.footer-hr {
   font-size: 20px;
   font-weight: 500;
   line-height: 28px;
-  margin-left: 100px;
+  margin-left: 140px;
   margin-right: 100px;
 }
 .m2{
