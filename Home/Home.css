@@ -25,7 +25,7 @@ body{
     height: 600px;
   }
   #contact2{
-    height: 600px;
+    height: 800px;
     background-color: rgb(249, 254, 254);
   }
   #contact3 {
@@ -139,7 +139,7 @@ p.copyright-footer {
   text-align: center;
   font-family: Arial;
   padding: 10px 0px;
-  color: #3b3663;
+  color: white;
 }
 hr.footer-hr {
   margin: 40px 0px 20px;
@@ -198,7 +198,7 @@ hr.footer-hr {
 * {box-sizing: border-box;}
 .mySlides {display: none;}
 .m2 img {
-height: 600px;}
+height: 800px;}
 
 /* Slideshow container */
 .slideshow-container {
