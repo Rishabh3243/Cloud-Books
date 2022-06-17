@@ -27,7 +27,7 @@ body{
   .d {
     position: relative;
     top: 35%;
-    left: 45%;
+    left: 44%;
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -36,7 +36,7 @@ body{
   }
   .e {
     color: rgba(76, 152, 215, 0.904);
-    font-size: 125px;
+    font-size: 130px;
     font-weight: 900;
     font-family: roboto;
     margin-top: 40px;
@@ -46,6 +46,7 @@ body{
   .g {
     color: white;
     font-size: 25px;
+    font-style: italic;
     font-weight: 800;
     font-family: roboto;
     text-transform: uppercase;
@@ -129,4 +130,43 @@ p.copyright-footer {
 }
 hr.footer-hr {
   margin: 40px 0px 20px;
+}
+#contact2 {
+  height: 800px;
+}
+#contact3 {
+  height: 800px;
+}
+.w3 {
+  height: 400px;
+  width: 350px;
+  vertical-align: center;
+  z-index: 1;
+  border-radius: 5%;
+}
+.w4 {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  vertical-align: center;
+  z-index: 1;
+}
+.w2 h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: roboto;
+  font-weight: 900;
+}
+.w2 h3 {
+  color: white;
+  text-align: center;
+  font-family: roboto;
+  font-size: 30px;
+}
+.w2 a {
+  text-decoration: none;
+}
+.w  {
+
 }
