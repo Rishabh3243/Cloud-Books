@@ -33,7 +33,7 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      height: 900px;
+      height: 950px;
     }
   
 
@@ -249,3 +249,23 @@ height: 600px;}
 
 /*side  show end*/
 
+/* button */
+button {
+  background: linear-gradient(90deg, #8b81ef, #6759e8);
+  color: #fff;
+  border: none;
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 15px;
+  font-family: roboto;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+button:hover {
+  background: linear-gradient(180deg,#6759e8,#8b81ef);
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
