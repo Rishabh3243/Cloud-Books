@@ -175,7 +175,14 @@ hr.footer-hr {
 .w2 a {
   text-decoration: none;
 }
-
+.w p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .m2{
   height:600px;
   width: 1519px;
