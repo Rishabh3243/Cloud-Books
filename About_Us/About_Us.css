@@ -5,10 +5,11 @@ body{
   background-color:rgba(52, 110, 158, 0.904);
 }
 .about {
-  font-size: 18px;
-  margin-left: 80px;
-  margin-right: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 32px;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .topnav { 
   background-color: rgba(52, 110, 158, 0.904);
@@ -112,7 +113,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
-  height: 1000px;
+  height: 1150px;
 }
 
 .w{
@@ -122,6 +123,7 @@ body{
   height: 300px;
   width: 1070px;
   margin: 50px;
+  margin-top: 80px;
   z-index: 0;
   margin-left: 225px;
   margin-bottom: 130px;
@@ -137,26 +139,40 @@ body{
   margin: -20px;
   margin-left: 40px;
 }
-
+.z {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
 .w3{
   margin-left: 500px;
 }
-
-.z{
-  text-align: center;
+.z h1 {
+  font-family: roboto;
+  color: white;
   font-size: 100px;
-  color: #ffffff;
+  margin-top: -100px;
+  margin-left: 180px;
+  font-weight: 900;
+  text-align: center;
+  transition-duration: 0.5s;
 }
 h1 {
   color: white;
   font-size: 40px;
+  
 }
+.z h1:hover {
+  color: rgba(52, 110, 158, 0.904);
+  font-family: work sans;
+
+}
+
 p {
   font-size: 16px;
   color: white;
 }
 .info i {
-  background-color: rgba(49, 112, 164, 0.904);
+  background-color: rgb(49, 112, 164);
   color: #fff;
   width: 40px;
   border-radius: 50px;
