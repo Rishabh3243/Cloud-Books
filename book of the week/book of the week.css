@@ -1,0 +1,158 @@
+/* Navigation */
+/* Add a black background color to the top navigation */
+body{
+  margin: 0px;
+  background-color:  rgba(52, 110, 158, 0.904);
+}
+.topnav { 
+  background-color: rgba(52, 110, 158, 0.904);
+  overflow:visible;
+  height: 180px;
+}
+.f{
+  float: left;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 15px;
+  background-color: aliceblue;
+}
+.f1{
+  float: right;
+  height: 400px;
+  width: 300px;
+}
+
+/* Drop down list */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+.dropdown-content {
+  margin-top: 50px;
+  display: none;
+  position: absolute;
+  background-color:rgba(52, 110, 158, 0.904);
+  width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #fff7f7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  transition: all 1s ease;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(52, 110, 158, 0.904);
+  color:rgba(20, 241, 204, 0.796);
+  font-size: 60px;
+  border-bottom-left-radius:50px ;
+  border-bottom-right-radius:50px ;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:rgba(52, 110, 158, 0.904);
+  color:rgba(20, 234, 241, 0.796);
+  border-bottom-left-radius:50px ;
+  border-bottom-right-radius:50px ;
+}
+
+@media screen and (max-width:1200px){
+  .f1{
+    display:none;
+  }
+  .topnav a{
+    font-size: 20px;
+  }
+  .topnav a:hover{
+    font-size: 30px;
+  }
+}
+
+/* Navigation */
+
+
+/* footer */
+p.copyright-footer {
+text-align: center;
+font-family: Arial;
+padding: 10px 0px;
+color: #3b3663;
+}
+hr.footer-hr {
+margin: 40px 0px 20px;
+}
+
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.social-icons i {
+  background-color: rgba(169, 206, 238, 0.904);
+  color: black;
+  width: 40px;
+  margin-right: 10px;
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.05s ease;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.social-icons span{
+  font-style: Work sans;
+  color: white;
+  font-size: 16px;
+  margin-right: 15px;
+}
+ i:hover {
+  background-color: white;
+}
+.w{
+    border: 3px solid rgba(52, 110, 158, 0.904);
+    border-radius: 20px;
+    background-color: rgba(52, 110, 158, 0.904);
+    height: 400px;
+    width: 1070px;
+    margin: 50px;
+    z-index: 0;
+    margin-left: 125px;
+    margin-bottom: 130px;
+  }
+  
+.w2{
+    margin-left: 100px;
+    border-radius: 10%;
+    height: 490px;
+    width: 400px;
+    vertical-align: center;
+    z-index: 1;
+    margin: -20px;
+    margin-left: 40px;
+  }
+.w3{
+    margin-left: 550px;
+  }
+
+  #contact4 {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/fiction.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+  }

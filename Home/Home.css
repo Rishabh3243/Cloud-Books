@@ -144,43 +144,43 @@ p.copyright-footer {
 hr.footer-hr {
   margin: 40px 0px 20px;
 }
-.w {
+.v {
   margin-top: -20px;
 }
-.w .p1 {
+.v .p1 {
   padding-top: 50px;
 }
-.w3 {
+.v3 {
   height: 400px;
   width: 350px;
   vertical-align: center;
   z-index: 1;
   border-radius: 5%;
 }
-.w4 {
+.v4 {
   border-radius: 50%;
   height: 400px;
   width: 400px;
   vertical-align: center;
   z-index: 1;
 }
-.w2 h1 {
+.v2 h1 {
   color: white;
   text-align: center;
   font-size: 60px;
   font-family: roboto;
   font-weight: 900;
 }
-.w2 h3 {
+.v2 h3 {
   color: white;
   text-align: center;
   font-family: roboto;
   font-size: 30px;
 }
-.w2 a {
+.v2 a {
   text-decoration: none;
 }
-.w p {
+.v p {
   color: white;
   font-size: 20px;
   font-weight: 500;
