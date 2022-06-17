@@ -90,7 +90,7 @@ p.copyright-footer {
 text-align: center;
 font-family: Arial;
 padding: 10px 0px;
-color: #3b3663;
+color: white;
 }
 hr.footer-hr {
 margin: 40px 0px 20px;
@@ -149,10 +149,12 @@ h1 {
     margin-left: 550px;
   }
 
-  #contact4 {
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/fiction.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 800px;
-  }
+ body {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/fiction.jpg);
+  background-position: absolute;
+  top: 180px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 800px;
+}
