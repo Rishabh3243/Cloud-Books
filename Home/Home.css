@@ -17,9 +17,6 @@ body{
     margin: 15px;
     background-color: aliceblue;
   }
-  section {
-    height: 1000px;
-  }
   #contact {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/library3.jpg);
     background-repeat: no-repeat;
@@ -29,10 +26,10 @@ body{
   }
   .d {
     position: absolute;
-    top: 30%;
-    left: 40%;
-    height: 280px;
-    width: 280px;
+    top: 25%;
+    left: 45%;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     margin: 15px;
     background-color: aliceblue;
