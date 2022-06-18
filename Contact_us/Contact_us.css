@@ -19,13 +19,11 @@ body{
   margin: 15px;
   background-color: aliceblue;
 }
-
 .f1{
   float: right;
   height: 400px;
   width: 300px;
 }
-
 /* Drop down list */
 .dropdown {
   position: relative;
@@ -44,7 +42,6 @@ body{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -55,7 +52,6 @@ body{
   font-size: 35px;
   transition: all 1s ease;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgba(37, 120, 189, 0.904);
@@ -64,7 +60,6 @@ body{
   border-bottom-left-radius:50px ;
   border-bottom-right-radius:50px ;
 }
-
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color:rgba(52, 110, 158, 0.904);
@@ -72,11 +67,7 @@ body{
   border-bottom-left-radius:50px ;
   border-bottom-right-radius:50px ;
 }
-
 /* Navigation */
-
-
-
 /* contact us */
 #contact {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../A2/library2.jpeg);
@@ -126,8 +117,8 @@ input.submit-btn:hover {
 .footer-col.footer-2-col {
   position: relative;
   left: 80px;
-
 }
+
 .footer-col {
   width: 30%;
   float: left;
