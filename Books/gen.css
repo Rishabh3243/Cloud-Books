@@ -2,6 +2,7 @@
 /* Add a black background color to the top navigation */
 body{
     margin: 0px;
+    background-color: rgba(52, 110, 158, 0.904);;
   }
   .topnav { 
     background-color: rgba(52, 110, 158, 0.904);
@@ -187,7 +188,7 @@ body{
     text-align: center;
     font-family: Arial;
     padding: 20px 0px;
-    color: #3b3663;
+    color: white;
   }
   hr.footer-hr {
     margin: 10px 0px 20px;
