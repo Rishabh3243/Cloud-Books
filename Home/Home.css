@@ -27,6 +27,7 @@ body{
   #contact2{
     height: 800px;
     background-color: rgb(249, 254, 254);
+    background-size: cover;
   }
   #contact3 {
       background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../Images/library1.jpg);
@@ -189,8 +190,7 @@ hr.footer-hr {
   margin-right: 100px;
 }
 .m2{
-  height:600px;
-  width: 1519px;
+  background-size: cover;
   background-color: white;
 }
 
