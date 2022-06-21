@@ -15,4 +15,4 @@ Here is an amazing website created by Me ( as Rishabh Bharatabhai Parmar ) and J
  so, just stay tuned for more and make yourself productive with your great friends "BOOKS".
  "
  //
-//Caution: - "non-respnosive and static website"
+*//Caution: - "non-respnosive and static website"
