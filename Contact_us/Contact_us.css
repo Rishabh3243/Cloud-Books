@@ -67,6 +67,19 @@ body{
   border-bottom-left-radius:50px ;
   border-bottom-right-radius:50px ;
 }
+
+@media screen and (max-width:1200px){
+  .f1{
+    display:none;
+  }
+  .topnav a{
+    font-size: 20px;
+  }
+  .topnav a:hover{
+    font-size: 30px;
+  }
+}
+
 /* Navigation */
 /* contact us */
 #contact {
