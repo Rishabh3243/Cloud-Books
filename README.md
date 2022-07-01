@@ -4,7 +4,7 @@ Cloud-Books
 
 
 Hi Everyone,
-Here is an amazing website created by Me ( as Rishabh Bharatabhai Parmar ) and Jagdaish Suthar
+Here is an amazing website created by Me ( as Rishabh Bharatabhai Parmar ) and Jagdish Suthar
 - It is a static website where you can get to read amazing book of science, fiction, business etc. 
 
 
